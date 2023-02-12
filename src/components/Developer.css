@@ -1,0 +1,98 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.Developer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh auto;
+  }
+  body{
+    background: rgb(1,5,22);
+  }
+  .Developer h1{
+    color:white;
+  }
+  .Developer p{
+    margin: 20px 0px;
+    color:#ccc;
+    font-size: 17px;
+    width: 750px;
+    text-align: center;
+  }
+  .AppCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap :wrap;
+  }
+  @media screen and (max-width : 600px){
+    .Developer p{
+    width: 300px;
+    
+  }
+  }
+
+
+
+
+
+
+
+.image{
+    width: 150px;
+    border-radius: px;
+}
+.container{
+    width: 280px;
+    background: linear-gradient(to left bottom,#1c51ba,#191938);
+    padding:10px;
+    border-radius: 5px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh auto;
+}
+
+.container h2{
+    color:white;
+    margin:5px 0px;
+}
+.container h3{
+    color:turquoise;
+    margin: 7px 0px;
+}
+.SocialMediaIcon{
+    color:turquoise;
+    margin:20px 0px;
+}
+.icon{
+    margin:0px 5px;
+}
+
+/*hover effect*/
+.container:hover{
+    animation: flip 0.6s;
+    background: linear-gradient(to left bottom,#225dd4,#022669);
+}
+@keyframes flip {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+    
+}

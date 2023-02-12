@@ -1,0 +1,22 @@
+  .About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh auto;
+    /* border: 5px solid white; */
+  }
+  body{
+    background: rgb(1,5,22);
+  }
+  .About h1{
+    color:white;
+    margin-top: 50px;
+  }
+  .About p{
+    margin: 20px 0px;
+    color:#ccc;
+    font-size: 15px;
+    width: 1000px;
+    text-align: center;
+  } 
